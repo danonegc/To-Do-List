@@ -1,0 +1,21 @@
+html {
+  background: url("newpad2.png") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  }
+/*body {
+  background-image: url("newpad2.png");
+  display: block;
+  }*/
+.divdiv {
+  text-align: center;
+  margin-top: 75px;
+}
+h1 {
+  font-family: 'Helvetica', sans-serif;
+  text-align: center;
+  color: white;
+  font-size: 75px;
+}
