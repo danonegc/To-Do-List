@@ -13,10 +13,10 @@
       <h1>The To-Do List</h1>
       <div class="divdiv">
         <label for="task">Task</label>
-        <input type="text" name="task" ng-model="task">
+        <input type="text" name="task" ng-model="task" placeholder="Input task">
         <input type="text" ng-model="myFil" placeholder="Input filter text">
         <button type="button" ng-click="addTask(task)">Add Task</button>
-            <div ng-hide="hide" ng-repeat="task in tasks |filter: myFil">
+            <div ng-hide="hide" ng-repeat="task in tasks |filter: myFil track by $index">
                 <p>{{task}}<input ng-model="hide" type="checkbox"></p>
          </div>
             </div>
